@@ -1,4 +1,7 @@
 console.log('Happy developing ✨')
 console.log('Seunghyun')
 let x=1
-console.log(x+100)
+let y=37
+console.log(y+x)
+
+
