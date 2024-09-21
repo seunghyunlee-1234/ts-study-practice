@@ -38,3 +38,5 @@ console.log(`내 이름은 ${person2.name}이다. 나는 ${person2.age}살이다
 numbers = [1, 2, 3, 4, 5]
 console.log(numbers[0])
 people = [person1, person2]
+console.log(`내 이름은 ${people[0].name}이다. 나는 ${people[0].age}살이다.`) // 이승현의 프로필
+console.log(`내 이름은 ${people[1].name}이다. 나는 ${people[1].age}살이다.`) // 삼승현의 프로필
