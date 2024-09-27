@@ -71,10 +71,27 @@ if (person2.isStudent === true) {
 //     이것을 반복한다
 // }
 // 조건이 참이 아니면 빠져나온다
-// i = 0;
-// while (i < 100) {
-//     console.log(0)
-// }
-
+// i = 1;
+// while (i <3){
+//   console.log("hello")
+//     i=i+1
+//     }
 
 // 함수
+// x = 7;
+// i = 1;
+// while (i <10){
+//     console.log(`${x} x ${i} = ${x * i}`);
+//     i = i+1;
+// }
+x = 2;
+while (x <10){
+    i = 1;
+    while (i <10){
+        console.log(`${x} x ${i} = ${x * i}` );
+        i = i+1;
+        console.log(`..........`)
+    }
+    x = x+1;
+    console.log(`___________`)
+}
