@@ -84,14 +84,34 @@ if (person2.isStudent === true) {
 //     console.log(`${x} x ${i} = ${x * i}`);
 //     i = i+1;
 // }
-x = 2;
-while (x <10){
-    i = 1;
-    while (i <10){
-        console.log(`${x} x ${i} = ${x * i}` );
-        i = i+1;
-        console.log(`..........`)
+// x = 2;
+// while (x < 10) {
+//     i = 1;
+//     while (i < 10) {
+//         console.log(`${x} x ${i} = ${x * i}`);
+//         i = i + 1;
+//         console.log(`..........`)
+//     }
+//     x = x + 1;
+//     console.log(`___________`)
+// }
+
+// 반복문
+i = 1
+while (i < 10) {
+    console.log(i)
+    i += 1;
+}
+
+i = 1
+while (true) {
+    console.log(i)
+    i += 1;
+    if (i === 10) {
+        break
     }
-    x = x+1;
-    console.log(`___________`)
+}
+
+for (let i = 1; i < 10; i++) {
+    console.log(i);
 }
