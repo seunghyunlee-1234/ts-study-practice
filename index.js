@@ -115,3 +115,16 @@ while (true) {
 for (let i = 1; i < 10; i++) {
     console.log(i);
 }
+for (let i = 1; i < 10; i++) {
+    console.log(`5 x ${i} = ${5 * i}`);
+}
+const addOne = (x) => {
+    x = x + 1;
+    return x;
+}
+const output = addOne(5);
+console.log(output)
+const printGugudan = (x) => {
+    x = x + 1;
+}
+printGugudan(3);
