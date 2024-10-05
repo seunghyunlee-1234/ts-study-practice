@@ -1,10 +1,10 @@
-변수와 값
-문자열
-숫자: 정수(integer), 소수(float, double)
-불(참, 거짓)
-is_student: 파이썬, ...
-isStudent: 자바스크립트, 타입스크립트, ...
-IsStudent: 자바, c#, ...
+// 변수와 값
+// 문자열
+// 숫자: 정수(integer), 소수(float, double)
+// 불(참, 거짓)
+// is_student: 파이썬, ...
+// isStudent: 자바스크립트, 타입스크립트, ...
+// IsStudent: 자바, c#, ...
 name1 = "이승현"
 age1 = 11
 isStudent1 = true
@@ -155,8 +155,16 @@ const addOne = (x) => {
 
 const output = addOne(200);
 console.log(output)
-
+const multiplyTwo = (x) => {
+    x = x * 2
+    return x;
+}
+console.log(multiplyTwo(153621))
 // 프로필을 출력해보자
 // 내 이름은 이승현이다. 나는 11살이다.
 // 나는 학생이다.
-const printProfile = () => {}
+const printprofile = (person2) => {
+    console.log(`My name is ${person2.name}. I am ${person2.age} years old.`)
+    console.log("I am a student.")
+}
+printprofile(person2);
