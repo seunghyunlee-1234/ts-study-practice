@@ -1,20 +1,17 @@
 "use strict";
 // 변수와 값
-// 문자열
-// 숫자: 정수(integer), 소수(float, double)
-// 불(참, 거짓)
 // is_student: 파이썬, ...
 // isStudent: 자바스크립트, 타입스크립트, ...
 // IsStudent: 자바, c#, ...
-name1 = "이승현";
-age1 = 11;
-isStudent1 = true;
-name2 = "삼승현";
-age2 = 31;
-isStudent2 = false;
+const name1 = "이승현";
+const age1 = 11;
+const isStudent1 = true;
+const name2 = "삼승현";
+const age2 = 31;
+const isStudent2 = false;
 // 연산자
 // =, +, -, x, /, +=, %
-x = 1;
+let x = 1;
 x = x + 100;
 x += 100;
 console.log(x);
@@ -29,12 +26,12 @@ console.log(`내 이름은 ${name1}이다. 나는 ${age1}살이다.`); // 이승
 console.log(`내 이름은 ${name2}이다. 나는 ${age2}살이다.`); // 삼승현의 프로필
 // json 객체
 // 키, 값
-person1 = {
+const person1 = {
     name: "이승현",
     age: 11,
     isStudent: true,
 };
-person2 = {
+const person2 = {
     name: "삼승현",
     age: 31,
     isStudent: false,
@@ -42,9 +39,9 @@ person2 = {
 console.log(`내 이름은 ${person1.name}이다. 나는 ${person1.age}살이다.`); // 이승현의 프로필
 console.log(`내 이름은 ${person2.name}이다. 나는 ${person2.age}살이다.`); // 삼승현의 프로필
 // 배열
-numbers = [1, 2, 3, 4, 5];
+const numbers = [1, 2, 3, 4, 5];
 console.log(numbers[0]);
-people = [person1, person2];
+const people = [person1, person2];
 console.log(`내 이름은 ${people[0].name}이다. 나는 ${people[0].age}살이다.`); // 이승현의 프로필
 console.log(`내 이름은 ${people[1].name}이다. 나는 ${people[1].age}살이다.`); // 삼승현의 프로필
 // 조건문
@@ -112,7 +109,7 @@ console.log("-------------------");
 //     console.log(`___________`)
 // }
 // 반복문
-i = 1;
+let i = 1;
 while (i < 10) {
     console.log(i);
     i += 1;
@@ -136,8 +133,8 @@ const addOne = (x) => {
     x = x + 1;
     return x;
 };
-const output = addOne(200);
-console.log(output);
+const output1 = addOne(200);
+console.log(output1);
 const multiplyTwo = (x) => {
     x = x * 2;
     return x;
@@ -146,8 +143,8 @@ console.log(multiplyTwo(153621));
 // 프로필을 출력해보자
 // 내 이름은 이승현이다. 나는 11살이다.
 // 나는 학생이다.
-const printprofile = (person2) => {
-    console.log(`My name is ${person2.name}. I am ${person2.age} years old.`);
+const printprofile = (person) => {
+    console.log(`My name is ${person.name}. I am ${person.age} years old.`);
     console.log("I am a student.");
 };
 printprofile(person2);

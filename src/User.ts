@@ -3,13 +3,13 @@
 // class: frame
 class User {
     // instance data
-    email = ""
-    password = ""
-    nickname = ""
-    age = 0
+    email: string = ""
+    password: string = "1234"
+    nickname: string = "hi4321"
+    age: number= 21
 
     // special method - constructor
-    constructor(email, password, nickname, age) {
+    constructor(email: string, password: string, nickname: string, age: number) {
         this.email = email
         this.password = password
         this.nickname = nickname

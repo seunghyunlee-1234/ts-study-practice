@@ -1,6 +1,7 @@
 {
   "name": "ts-study",
   "scripts": {
+    "start": "tsc && node dist/index.js"
   },
   "private": true,
   "dependencies": {
