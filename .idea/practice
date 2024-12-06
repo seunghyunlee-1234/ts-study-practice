@@ -1,0 +1,11 @@
+import User from './users';
+import fs from 'node:fs';
+import path from 'node:path';
+
+const app = async () => {
+    console.log("print");
+  };
+
+
+
+  app();
